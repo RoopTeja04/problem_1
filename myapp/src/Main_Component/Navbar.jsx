@@ -18,18 +18,22 @@ const Navbar = ({ handleTheme, theme }) => {
             <div className='bg-green-700 text-white relative w-[92%] h-14 top-10 mx-16 rounded-4xl flex flex-row items-center px-10 justify-between'>
                 <span className='text-xl font-semibold tracking-wide'>Make My Trip</span>
                 <div className='flex space-x-15'>
-                    <span className='cursor-pointer'>Home</span>
-                    <span className='cursor-pointer'>Trips/Groups</span>
-                    <span className='cursor-pointer'>Expenses</span>
-                    <span className='cursor-pointer'>Add Expenses</span>
+                    <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Home</span>
+                    <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Trips/Groups</span>
+                    <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Expenses</span>
+                    <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Add Expenses</span>
                 </div>
                 <div className='flex space-x-6'>
-                    <span>Hi, <span className='text-xl font-semibold tracking-wide'>{username}</span></span>
+                    <div>
+                        <span className='text-sm pr-1'>Hi, </span>
+                        <span className='text-3xl font-semibold tracking-wide'>{username}</span>
+                    </div>
+
                     <button
                         className='cursor-pointer'
                         onClick={handleTheme}
                     >{theme ? <SunnyIcon /> : <BedtimeIcon />}</button>
-                    <button 
+                    <button
                         type='button'
                         className='cursor-pointer hover:text-red-500 transition-colors duration-200 ease-linear'
                         onClick={handleLogout}
