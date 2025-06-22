@@ -16,7 +16,7 @@ const Navbar = ({ handleTheme, theme }) => {
     return (
         <>
             <div className='bg-green-700 text-white relative w-[92%] h-14 top-10 mx-16 rounded-4xl flex flex-row items-center px-10 justify-between'>
-                <span className='text-xl font-semibold tracking-wide'>Make My Trip</span>
+                <span className='text-xl font-semibold tracking-wide'>M Y T</span>
                 <div className='flex space-x-15'>
                     <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Home</span>
                     <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Trips/Groups</span>
