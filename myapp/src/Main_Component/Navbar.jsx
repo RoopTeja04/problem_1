@@ -2,6 +2,7 @@ import React from 'react'
 import SunnyIcon from '@mui/icons-material/Sunny';
 import BedtimeIcon from '@mui/icons-material/Bedtime';
 import LogoutIcon from '@mui/icons-material/Logout';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ handleTheme, theme }) => {
 
@@ -20,7 +21,9 @@ const Navbar = ({ handleTheme, theme }) => {
                 <div className='flex space-x-15'>
                     <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Home</span>
                     <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Trips/Groups</span>
-                    <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Expenses</span>
+                    <Link to="expenses">
+                        <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Expenses</span>
+                    </Link>
                     <span className='cursor-pointer hover:text-black transition-all ease-in-out duration-400'>Add Expenses</span>
                 </div>
                 <div className='flex space-x-6'>
