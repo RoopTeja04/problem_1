@@ -12,7 +12,7 @@ const Login = () => {
 
     const navigate = useNavigate();
 
-    const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(true);
     const [userLogin, setUserLogin] = useState(defaultValues);
 
     const storedEmail = localStorage.getItem("userName");
