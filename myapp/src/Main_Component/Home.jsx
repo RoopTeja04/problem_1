@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Navbar from './Navbar'
-import Slider from './Slider';
 import Plans from './Plans';
 import Footer from './Footer';
 import FAQ from './FAQ';

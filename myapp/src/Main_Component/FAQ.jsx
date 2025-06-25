@@ -50,7 +50,7 @@ const FAQ = () => {
 
     return (
         <div
-            className="bg-gray-100 w-[90%] mx-auto mt-10 p-6 rounded-2xl shadow-lg"
+            className="bg-gray-300 w-[90%] mx-auto mt-10 p-6 rounded-2xl shadow-lg"
         >
             <h1 className="text-3xl font-bold text-gray-800 mb-6 ml-4">FAQs</h1>
             <div className="space-y-4">

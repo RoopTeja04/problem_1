@@ -10,7 +10,7 @@ const AppDownload = () => {
 
     return (
         <>
-            <div class="bg-[#1C2B3A] h-48 text-white w-[90%] mx-auto rounded-lg flex items-center justify-around">
+            <div className="bg-[#1C2B3A] h-48 text-white w-[90%] mx-auto rounded-lg flex items-center justify-around">
                 <div className='flex flex-col justify-center ml-4 space-y-4'>
                     <div className='flex flex-row space-x-3'>
                         <RiMobileDownloadLine
